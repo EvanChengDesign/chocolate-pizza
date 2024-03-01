@@ -1,4 +1,9 @@
-#navDelicious {
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  
+  #navDelicious {
 font-family: "bello-pro", sans-serif;
 font-size: 5vw;
 font-weight: 400;
@@ -39,6 +44,60 @@ nav {
     background: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%);
   }
 
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .author {
+    /* Style for author section */
+  }
+  
+  .share-recipe {
+    /* Style for share recipe button */
+  }
+
+
+  
+  
+  main {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  article {
+    margin: 20px 0;
+  }
+  
+  .date-posted {
+    color: grey;
+    font-size: 0.85em;
+  }
+  
+  .recipe-image {
+    margin: 20px 0;
+    /* Style for the image container */
+  }
+  
+  .recipe-instructions {
+    /* Style for recipe instructions section */
+  }
+  
+  .ingredients {
+    margin: 20px 0;
+  }
+  
+  .ingredient-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .ingredient-list li {
+    /* Style for ingredient list items */
+  }
+  
   footer {
     display: flex;
     justify-content: space-between;
